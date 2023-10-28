@@ -9,9 +9,9 @@ namespace WorkAllotmentSystem
     internal class Manager
     {
         public int skillFactor;
-        public List<Employee> employeeList = new List<Employee>();
-        public List<Work> workList = new List<Work>();
-        public float minValue = -125f;
+        public List<Employee> employeeList = new List<Employee>(5);
+        public List<Work> workList = new List<Work>(5);
+        public float minValue = 0f;
         public float maxValue = 100f;
         public Work currentWork;
 
